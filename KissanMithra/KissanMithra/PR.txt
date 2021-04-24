@@ -1,0 +1,23 @@
+ABSTRACT
+WE Aare creating a web application a helping hand to the farmers of our country, to be smarter in what they do best. Nurter the best crops to the best benefits. We hear news of farmers getting to deeper miseries, going steep down in mortgages that they made for their crops and harvest and even giving up their lives just because they were wrong about the crop they choose. Today due to large scale global warming and man made effects the climatic cycle of the world has changed and the monsoons, migrations, windspeed has taken a huge deflection in their behaviours and made subsequent impact on the agriculture industry.
+
+Through the web portal which is multi language translation facility available farmers can look upto the live weather, updates from the krishi officer and the government on latest schemes available to them, pest updation through which the farmer can inform his fellow that the incoming of a new pest in the area and to someone to avoid the thought of putting all the efforts without knowing the danger that comes after it. The webportal comes with the main tool of crop predictor for different seasons and the farmers who had taken that crop. The farmer is also informed about the daily prices of the items through another menu.At the same time the use of the admin portal enable the officers to get the data of farmers as well as the crops that they have chosen, he is able to update the prices as well on a frequent basis.
+
+INTRODUCTION
+
+Empowering and care should be given to those hands who feed us daily amidst the worst conditions that they suffer unanimously.
+ This is a web tool to empower the farmers in our country.   
+This Web tool will increase the success rate of farmers in  selecting the right crop. Thus reduce farmer's struggles and miseries in the country. There is a solution of the transparency in information and increased use of scientific tools to gain the accurate predictions. The webportal at the same time equally benefits the agriculture officers as well as the farmers.
+
+Objectives
+i)Provide the most suitable crop suggestion to the farmer
+ii)Massive losses and financial burden of crop loss can be avoided
+iii)Admin can view the list of farmers who are going to sow the crop and thus provide them with effective helps by getting informed about the clients.
+iv)Get informed about all the schemes available to the farmers updated
+v)Bring a collective point for the farmers to make an authentic trade
+
+PURPOSE SCOPE AND APPLICABILITY
+
+Purpose
+
+We build this web-app to eradicate farmer suicides and prevent migration of farmers to cities and other trades due to failure of crops, mortgages etc. 

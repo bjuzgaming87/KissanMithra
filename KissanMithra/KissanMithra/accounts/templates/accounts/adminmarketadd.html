@@ -1,0 +1,43 @@
+{% extends 'accounts/AdminPage.html' %}
+{% block css %}
+{% endblock %}
+{% block body %}
+{% if z %}
+<div class="container w-50 mt-4 " xmlns:color="http://www.w3.org/1999/xhtml">
+<form method="post" enctype="multipart/form-data" action="adminmarketadd" class="shadow-lg p-3 mb-5 bg-white rounded">
+     {% csrf_token %}
+      <div class="form-group">
+            <label for="town" >Select District</label>
+       <select id="town"  class="form-control" name="District4" id="District4" required>
+             <option disabled="true"> ---select District--- </option>
+ 	<option value="ALAPPUZHA">ALAPPUZHA</option>
+	<option value="ERNAKULAM">ERNAKULAM</option>
+	<option value="IDUKKI">IDUKKI</option>
+	<option value="KANNUR">KANNUR</option>
+	<option value="KASARAGOD">KASARAGOD</option>
+	<option value="KOLLAM">KOLLAM</option>
+	<option value="KOTTAYAM">KOTTAYAM</option>
+	<option value="KOZHIKODE">KOZHIKODE</option>
+	<option value="MALAPPURAM">MALAPPURAM</option>
+	<option value="PATHANAMTHITTA">PATHANAMTHITTA</option>
+	<option value="THIRUVANANTHAPURAM">THIRUVANANTHAPURAM</option>
+	<option value="THRISSUR">THRISSUR</option>
+	<option value="WAYANAD">WAYANAD</option>
+       </select>
+     </div>
+    <div class="form-group">
+		<input type="text" name="market" placeholder="market">
+    </div>
+	<div class="form-group">
+		<input type="text" name="crop" placeholder="crop">
+    </div>
+    <div class="form-group">
+		<input type="text" name="price" placeholder="price">
+    </div>
+	<button type="submit" class="btn btn-success mt-2">Submit</button>
+</form>
+
+{% endif %}
+{% endblock %}
+{% block js %}
+{% endblock %}
